@@ -3,8 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link rel="stylesheet" href="./lib/todc-bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./lib/todc-bootstrap/css/todc-bootstrap.min.css">
     </head>
     <body>
-        hello npm
+        <div class="panel panel-default">
+            <div class="panel-heading">Panel heading without title</div>
+            <div class="panel-body">
+                  panel content
+            </div>
+        </div>
+
+        <script>
+            window.$ = window.jQuery = require('./node_modules/jquery/dist/jquery.min.js');
+            require('./lib/todc-bootstrap/js/bootstrap.min.js');
+            require('./main.js');
+        </script>
     </body>
 </html>

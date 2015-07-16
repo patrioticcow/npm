@@ -9,6 +9,8 @@
   "author": "Cristi",
   "license": "ISC",
   "devDependencies": {
-    "electron-prebuilt": "^0.30.0"
+    "electron-prebuilt": "^0.30.0",
+    "jquery": "^2.1.4",
+    "npm-check": "^3.2.10"
   }
 }
