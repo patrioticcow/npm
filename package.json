@@ -1,0 +1,14 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "na",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Cristi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.0"
+  }
+}
